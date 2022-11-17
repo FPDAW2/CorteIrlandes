@@ -132,6 +132,7 @@ footer {
   object-fit: cover;
   border-radius: 10px 10px 0 0;
   transition: all .5s;
+  padding: 10%;
 }
 
 .item figure{
@@ -154,7 +155,7 @@ footer {
 }
 
 .precio{
-  font-size: 18px;
+  font-size: 35px;
   font-weight: 900;
 }
 
