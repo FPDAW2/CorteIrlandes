@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../../.."
+		},
+		{
+			"path": "../../../../CorteIrlandes-mainLibros"
+		},
+		{
+			"path": "../../../../pruebas"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "CorteIrlandes-main"
+	}
+}

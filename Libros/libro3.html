@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+
+    <link rel="stylesheet" href="./bootstrap/css/libros.css" />
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap-grid.css" />
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap-grid.min.css" />
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap-grid.min.css.map" />
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap-reboot.min.css" />
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css.map" />
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap-grid.css.map" />
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap-reboot.css" />
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap-reboot.css.map" />
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap-reboot.min.css.map"/>
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+    crossorigin="anonymous"
+  />
+ 
+  <script
+    src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"
+    defer
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"
+    defer
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"
+    defer
+  ></script>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.css.map" />
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css" />
+    <title>LIBRO 3</title>
+  </head>
+  <body>
+
+    
+    <!--------------------------- DEPARTAMENTO DE LIBRERÍA. LIBRO 3 ------------------------------------
+
+      Fecha de creación: NO LO SE 
+      Fecha de última modificación: 03/11/2022
+      Autores: juanluis.penalopez@iesjuandeherrera.net y rocio.fernandezzamora@iesjuandeherrera.net
+
+      Página que engloba información más concreta de el primer libro.
+
+      La página se divide en 4 bloques:
+
+      - El primero (col-2), donde se situa la imagen.
+      - El segundo (col-10, con otros dos bloques anidados, (col-8 y col-4)), donde se encuentran, en 
+        el col-8 título, resumen, autor y género. Y en el col-4, precio, input de cantidad y ficha 
+        ténica, cada uno son col-12.
+      - El tercero (col-12), con información del autor + foto.
+      - El cuarto (col-12), con la sipnosis.
+      
+    ---------------------------------------------------------------------------------------------------->
+
+    <!--Cabecera-->
+
+    <header>
+      <!--HEADER-->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownMenuLink"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Departamentos
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="../Calzado/index2.html">Ir a Calzado</a>
+                  <a class="dropdown-item" href="../Musica/index.html">Ir a Música</a>
+                  <a class="dropdown-item" href="../Videojuegos/index.html">Ir a Videojuegos</a>
+                  <a class="dropdown-item" href="../Informatica/index.html">Ir a Informática</a>
+                  <a class="dropdown-item" href="./index.html">Ir a Libros</a>
+              </div>
+            </li>
+            <form class="form-inline my-2 my-lg-0 col-4 col-md-12">
+              <input
+                class="form-control mr-sm-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+            </form>
+  
+            <div class="iconosDerecha">
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <img class="iconos" src="./img/userIcono.png" alt="" />
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <img class="iconos" src="./img/carrito.png" alt="" />
+                </a>
+              </li>
+            </div>
+          </ul>
+        </div>
+        <a class="" href="#">
+          <img class="logo" src="./img/logoMorado.png" alt="" />
+        </a>
+      </nav>
+    </header>
+  <!--FIN HEADER-->
+  
+    <div class="container-fluid">
+
+      <!--Cuerpo-->
+
+      <div id="articulos">
+        <div class="row">
+          <div class="col-2">
+            <div id="producto1">
+              <img
+                class="img-fluid w-70 pb-2"
+                src="img/todovaamejorar.jpg"
+                id="flibros"
+                alt=""
+              /><!-- Imagen del producto -->
+              <div class="col-md-12 col-12">
+                <div class="small-img-group">
+                  <div class="small-img-col">
+                    <img
+                      src="img/contraportadatodovaamejorar.jpg"
+                      width="100%"
+                      class="small-img"
+                      alt=""
+                    />
+                  </div>
+                  <div class="small-img-col">
+                    <img
+                      src="img/todovaamejorar.jpg"
+                      width="100%"
+                      class="small-img"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-10">
+            <div class="row">
+              <div class="d-none d-md-block d-sm-none col-8">
+                <div id="producto2">
+                  <div>
+                    <p id="titulo">TODO VA A MEJORAR</p>
+                    <p id="info">ALMUDENA GRANDES</p>
+                    <p id="info">
+                      Narrativa española. Novela contemporánea <xx/p>
+                    </p>
+                  </div>
+
+                  <div class="parrafo">
+                    <p id="resumen">Resumen</p>
+                    <p id="texto">
+                      En un mundo perfecto de felicidad obligatoria, 
+                      denunciar la mentira puede costarte la vida. España en un futuro próximo. Un nuevo 
+                      partido político llamado Movimiento Ciudadano ¡Soluciones Ya! ha arrasado en las elecciones. 
+                      Quien lo dirige en la sombra es un empresario de éxito que propugna que el Consejo de 
+                      Ministros funcione como un consejo de administración, y que tiene proyectos ambiciosos 
+                      para arreglar el país. Tras la alarma de una ola de vandalismo, formará un nuevo cuerpo de 
+                      Vigilantes, tras un Gran Apagón creará un acceso limitado a internet, y, ante las dificultades, 
+                      estimulará la libertad de compras y consumo. «La seguridad es salud. La salud es vida. La vida es seguridad.»
+                      <a href="#" onclick="vermas('mas');" id="mas"
+                        >... Ver más</a
+                      ><!-- Enlace usado para ampliar texto -->
+                    </p>
+                    <!-- Texto que se verá despues de pulsar el enlace: "leer mas" y se esconderá despues de pulsar el enlace: "leer menos" -->
+                    <p id="desplegar" style="display: none">
+                      Sólo un grupo de mujeres y hombres corrientes se atreverán a desmontar las mentiras del nuevo régimen 
+                      en el que todo aparenta mejorar, cuando en realidad se vive bajo los abusos de poderosos sin escrúpulos.
+                      Novela coral de anticipación política que tiene lo mejor de Los besos en el pan y la intriga de los 
+                      resistentes de los Episodios de una Guerra Interminable, la última novela de Almudena Grandes es sobre 
+                      todo una galería inolvidable de personajes, que van contando su experiencia de adaptación a un país que ha 
+                      sufrido fuertes sacudidas y en el que no quieren resignarse. El legado de una gran narradora que logra de nuevo 
+                      emocionarnos y despertar conciencias.
+                      <a href="#" onclick="vermas('menos');" id="menos"
+                        >... Ver menos</a
+                      >
+                      <!-- Enlace usado para esconder texto -->
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="d-none d-md-block d-sm-none col-4">
+                <div class="col-12">
+                  
+                    <div>
+                      <p id="precio"><span>21,90€</span> 20,80€</p>
+                      <input type="number" value="1" min="0" max="10" class="cantidad">
+                      <a href="#"><button class="buy-btn">Añadir al carrito</button></a>
+                      <img
+                        src="img/ofertas.jpg"
+                        alt="ofertas"
+                        class="fotOfertas"
+                      />
+                    </div>
+
+                    <div>
+                      <!-- Ficha técnica, donde se incluye información expecífica como el número de páginas, la editorial, el idioma,
+                            ISBN, Año de edición, plaza de edición, fecha de lanzamiento y tamaño (ancho y alto). -->
+                      <p id="ficha">Ficha tecnica</p>
+                      <table id="texto">
+                        <tr>
+                          <td>Número de páginas</td>
+                          <td>512</td>
+                        </tr>
+                        <tr>
+                          <td>Editorial</td>
+                          <td>TUSQUETS EDITORES</td>
+                        </tr>
+                        <tr>
+                          <td>Idioma</td>
+                          <td>CASTELLANO</td>
+                        </tr>
+                        <tr>
+                          <td>ISBN:</td>
+                          <td>9788411071734</td>
+                        </tr>
+                        <tr>
+                          <td>Año de edición:</td>
+                          <td>2022</td>
+                        </tr>
+                        <tr>
+                          <td>Plaza de edición</td>
+                          <td>BARCELONA</td>
+                        </tr>
+                        <tr>
+                          <td>Fecha de lanzamiento</td>
+                          <td>11/10/2009</td>
+                        </tr>
+                        <tr>
+                          <td>Alto</td>
+                          <td>22.5 cm</td>
+                        </tr>
+                        <tr>
+                          <td>Ancho:</td>
+                          <td>14.8 cm</td>
+                        </tr>
+                      </table>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="d-none d-sm-none d-md-block col-12" id="autor">
+            <p id="info">John Boyne</p>
+            <table>
+              <tr>
+                <td>
+                  <img
+                    src="img/almudenagrandes.jpg"
+                    alt=""
+                    id="fotoautor"
+                  /><!--Foto del autor-->
+                </td>
+                <td>
+                  <p id="texto">
+                    Almudena Grandes (Madrid, 1960-2021) se dio a conocer en 1989 con Las 
+                    edades de Lulú, XI Premio La Sonrisa Vertical. Sus novelas Te llamaré 
+                    Viernes, Malena es un nombre de tango, Atlas de geografía humana, Los aires 
+                    difíciles, Castillos de cartón, El corazón helado y Los besos en el pan, junto 
+                    con sus libros de cuentos Modelos de mujer y Estaciones de paso, la han convertido 
+                    en una autora imprescindible. La culminación de su carrera fueron las cinco novelas 
+                    que forman sus Episodios de una Guerra Interminable. Adaptada ampliamente al cine y 
+                    al teatro, mereció, entre otros, el Premio de la Fundación Lara, el Premio de los 
+                    Libreros de Madrid y el de los de Sevilla, el Arcebispo Juan de San Clemente, el 
+                    Rapallo Carige, el Prix Méditerranée, el Jean Monet, el Premio de la Crítica de 
+                    Madrid, el Premio Elena Poniatowska, el Sor Juana Inés de la Cruz, y el Premio Nacional 
+                    de Narrativa. Su fallecimiento el pasado noviembre de 2021 causó un hondo impacto y provocó 
+                    una emocionante respuesta colectiva, de homenaje y reconocimiento, por parte de sus miles de 
+                    lectores.
+                  </p>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="d-none d-sm-none d-md-block col-12" id="sinopsis">
+            <p id="info">Sinopsis</p>
+            <p id="texto">
+              La última novela de Almudena Grandes.
+              En un mundo perfecto de felicidad obligatoria, denunciar la mentira puede costarte la vida.
+              España en un futuro próximo. Un nuevo partido político llamado Movimiento Ciudadano ¡Soluciones Ya! 
+              ha arrasado en las elecciones. Quien lo dirige en la sombra es un empresario de éxito que propugna 
+              que el Consejo de Ministros funcione como un consejo de administración, y que tiene proyectos 
+              ambiciosos para arreglar el país. Tras la alarma de una ola de vandalismo, formará un nuevo 
+              cuerpo de Vigilantes, tras un Gran Apagón creará un acceso limitado a internet, y, ante las dificultades, 
+              estimulará la libertad de compras y consumo. Todas ellas serán medidas extraordinarias porque el país se 
+              enfrenta a nuevas formas de pandemia que exigen velar ante todo por la seguridad. «La seguridad es salud. 
+              La salud es vida. La vida es seguridad.»
+              Sólo un grupo de mujeres y hombres corrientes se atreverán a desmontar las mentiras del nuevo régimen en 
+              el que todo aparenta mejorar, cuando en realidad se vive bajo los abusos de poderosos sin escrúpulos.
+            </p>
+          </div>
+        </div>
+      </div>
+
+        <!-- footer -->
+        <footer>
+          <!-- aqui he puesto tres contenedores de 4 cada una, aunque se puede modificar para poner 3-6-3 -->
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-4"></div>
+              <div class="col-4">
+                <!-- aqui iria no se si el logo, marca registrada el año o la idea que tengais -->
+                <p class="plibros">© 2022, El Corte Irlandés S.A. All rights reserved.</p>
+              </div>
+              <div class="col-4"></div>
+            </div>
+          </div>
+        </footer>
+        <!-- final del footer -->
+    </div> 
+    
+  </body>
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"
+  ></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+
+  <!-- js bootstap -->
+  <script src="./bootstrap/js/plantilla.js"></script>
+  <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="./bootstrap/js/bootstrap.bundle.min.js.map"></script>
+  <script src="./bootstrap/js/bootstrap.min.js"></script>
+  <script src="./bootstrap/js/bootstrap.min.js.map"></script>
+  <script src="./bootstrap/js/bootstrap.bundle.js"></script>
+  <script src="./bootstrap/js/bootstrap.bundle.js.map"></script>
+  <script src="./bootstrap/js/bootstrap.js"></script>
+  <script src="./bootstrap/js/bootstrap.js.map"></script>
+</html>

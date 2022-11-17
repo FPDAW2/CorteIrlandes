@@ -1,0 +1,148 @@
+/*ESTILOS DE LA PÁGINA PRINCIPAL DE DPTO*/
+*{    font-family:Arial, Helvetica, sans-serif;
+}
+body,
+html {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  width: 100%;
+  background-color: #f3f3ff;
+}
+main{
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.card {
+  background-color: rgb(255, 255, 255);
+  margin: 5px;
+  box-shadow: none !important;
+  border-radius: 5px;
+}
+/*Para no romper tamaños con más textos*/
+@media screen and (min-width: 1300px) {
+  .card-title{
+    font-size: 150%;
+  }
+  .card-text{
+    font-size: 110%;
+  }
+}
+@media screen and (max-width: 1299px) {
+  .card-title{
+    font-size: 100%;
+  }
+  .card-text{
+    font-size: 95%;
+  }
+}
+.card-title{ 
+  font-weight: bolder;
+}
+.comprabtn{
+  width: 22%;
+  border-radius: 50%;
+  padding: 2%;
+}
+.comprabtn img{
+  float: right;
+  width: 100%;
+  transition: all 1s ease;
+  
+}
+.comprabtn:hover{
+  background: #95cc8a;
+  border-color: #95cc8a;
+  
+}
+
+.detallebtn{
+    color: #000 !important;
+    font-weight: 500;
+    background: #ffeedd;
+    border: 2px solid;
+    border-color: #b8b8ff;
+    border-radius: 0px;
+    transition: all 1s ease;
+  }
+  .detallebtn:hover{
+    background: #95cc8a;
+    border-color: #95cc8a;
+  }
+.zoom{
+    width: 100%;
+    transition: transform .2s;
+    border-radius: 5px 5px 0px 0px;
+}
+.card:hover{
+    -webkit-transform: scale(1.02);
+    transform: scale(1.02);
+}
+
+/*OFERTAS*/
+.oferta{
+    width: 100px;
+    border: 2px solid red;
+    padding: 2px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0%;
+    left: 60%;
+}
+.precioTachado::before{
+    text-decoration: line-through;
+    content: "20,25€ ";
+    color: black;
+}
+.precioTachado{
+   color: red;
+   font-weight: bolder;
+}
+
+
+/*FOOTERYHEADER*/
+
+/*Cosas del logo del medio*/
+.logo {
+  position: absolute;
+    top: 80%;  
+    left: 50%;  
+    transform: translate(-50%, -50%);
+    width: 120px;
+    z-index: 1;
+}
+
+/*iconos*/
+.iconos {
+  width: 40px;
+  border-radius: 5px;
+}
+.navbar{
+  background-color: #8645ff;
+  color: rgb(255, 255, 255);
+}
+.nav-link,.nav-link:hover,.nav-link:visited{
+  color: rgb(255, 255, 255);
+
+}
+
+.iconosDerecha{
+  position: absolute;
+  right: 0;
+  display: flex;
+  margin-top: -5;
+  filter: invert(1);
+  margin-right: 5px;
+}
+
+
+footer {
+  
+  bottom: 0;
+  width: 100%;
+  background-color: #8645ff;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}

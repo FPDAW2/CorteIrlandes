@@ -1,0 +1,154 @@
+/*Paleta de colores
+#colores{margin-top: 25%; margin-bottom: 10%;}
+#c1{padding:1.2%; border:1px solid}
+#c2{background-color: #9381ff;padding: 1.2%; border:1px solid}
+#c3{background-color: #b8b8ff;padding: 1.2%; border:1px solid}
+#c4{background-color: #f8f7ff;padding: 1.2%; border:1px solid}
+#c5{background-color: #ffeedd;padding: 1.2%; border:1px solid}
+#c6{background-color: #ffd8be;padding: 1.2%; border:1px solid}*/
+*{
+  font-family: Helvetica;
+}
+.container-fluids{
+    background-color: #f8f7ff;
+}
+
+/************************** ARTICULOS **************************/
+
+/*Estilos de el contenedor que rodea a todos los productos*/
+
+#articulos{ /* Estilos del contenedor que incluye todos los productos */
+    height: 800px;
+    color: rgb(0, 0, 0);
+    margin-top: 5%;
+    padding: 4%;
+}
+
+/*Estilos de cada producto*/
+
+#producto1{ /* Estilos del div de los libros*/
+  
+    border: 2px solid #b8b8ff;
+    border-radius: 10px;
+    height: 375px;
+    margin-bottom: 10%;
+}
+
+#producto a{text-decoration: none; color:black;} /*Estilos para poner los titulos y los precios en negro, si quitas estos estilos
+                                                    los titulos y precios se quedan en azul, porque todo lo que hay dentro del div de
+                                                    cada libro es un enlace a información más concreta del producto*/
+
+#producto1:hover{/**Estilos de los div de cada libro, al pasar el raton por encima se sombrea el div*/
+    box-shadow: 0 20px 15px 5px rgba(0, 0, 0, 0.3);
+}
+
+#libros:hover {/**Estilos de las imagenes de cada libro, al pasar el raton por encima se agranda la imagen*/
+  transform: scale(1.3);
+  align-items: center;
+}
+
+/*Estilos de las fotos de los libros*/
+#libros{
+    box-sizing: border-box;
+    margin-top:10%;
+    padding-left: 7%;
+    margin-left: 15%;
+    margin-bottom: 10%;
+    width: 250px;
+    height: 200px;
+}
+
+/*Estilos de la inforacion del libro, titulo, autor y precio*/
+
+.preciolibros{ /*precio del libro*/
+    text-align: center;
+    font: bold 18px arial;
+} 
+
+span{ /*Texto de los precios antes del descuento, en rojo y tachado*/
+    text-decoration: line-through;
+    color: red;
+}
+
+.titulolibros{ /*Texto del título del libro*/
+    margin-left: 8%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    font-weight: bold;    
+}
+
+p.autor{  /*Texto del nomnbre del autor*/
+    margin-left: 8%;
+    font: 15px arial;
+    color: #8645ff;
+}
+
+/******** FIN DE ARTICULOS ********/
+
+/**** CABECERA Y ELEMENTOS DE LA CABECERA, FOOTER Y ELEMENTOS DE FOOTER, LO CUAL NO ENTIENDO Y NO COMENTO ****/
+
+html, body{
+    margin: 0px;
+    padding: 0px;
+}   
+
+/*Cosas del logo del medio*/
+
+  .logo {
+    position: absolute;
+      top: 80%;  
+      left: 50%;  
+      transform: translate(-50%, -50%);
+      width: 120px;
+      z-index: 1;
+  }
+  
+  /*iconos*/
+
+  .iconos {
+    width: 40px;
+    border-radius: 5px;
+  }
+  .navbar{
+    background-color: #8645ff;
+    color: rgb(255, 255, 255);
+  }
+  .nav-link,.nav-link:hover,.nav-link:visited{
+    color: rgb(255, 255, 255);
+  }
+  
+  .iconosDerecha{
+    position: absolute;
+    right: 0;
+    display: flex;
+    margin-top: -5;
+    filter: invert(1);
+    margin-right: 5px;
+  }
+  
+  header {
+    position: fixed;
+    background-attachment: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 40px;
+    padding-bottom: 30px;
+    /*NOTA: voy a poner esto un pelín mas oscuro por ahora, decidme a que color lo cambio o cambio el logo */
+    background-color: #8645ff;
+    z-index:100;
+  }
+
+  footer {
+    position: fixed;
+    background-attachment: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 40px;
+    padding-bottom: 30px;
+    /*NOTA: voy a poner esto un pelín mas oscuro por ahora, decidme a que color lo cambio o cambio el logo */
+    background-color: #8645ff;
+  }

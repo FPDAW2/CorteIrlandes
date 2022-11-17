@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+
+    <link rel="stylesheet" href="./bootstrap/css/libros.css" />
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap-grid.css" />
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap-grid.min.css" />
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap-grid.min.css.map" />
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap-reboot.min.css" />
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css.map" />
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap-grid.css.map" />
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap-reboot.css" />
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap-reboot.css.map" />
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap-reboot.min.css.map"/>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.css.map" />
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css" />
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+    crossorigin="anonymous"
+  />
+ 
+  <script
+    src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"
+    defer
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"
+    defer
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"
+    defer
+  ></script>
+    <title>LIBRO 7</title>
+  </head>
+  <body>
+
+    
+    <!--------------------------- DEPARTAMENTO DE LIBRERÍA. LIBRO 3 ------------------------------------
+
+      Fecha de creación: NO LO SE 
+      Fecha de última modificación: 03/11/2022
+      Autores: juanluis.penalopez@iesjuandeherrera.net y rocio.fernandezzamora@iesjuandeherrera.net
+
+      Página que engloba información más concreta de el primer libro.
+
+      La página se divide en 4 bloques:
+
+      - El primero (col-2), donde se situa la imagen.
+      - El segundo (col-10, con otros dos bloques anidados, (col-8 y col-4)), donde se encuentran, en 
+        el col-8 título, resumen, autor y género. Y en el col-4, precio, input de cantidad y ficha 
+        ténica, cada uno son col-12.
+      - El tercero (col-12), con información del autor + foto.
+      - El cuarto (col-12), con la sipnosis.
+      
+    ---------------------------------------------------------------------------------------------------->
+
+    <!--Cabecera-->
+
+    <header>
+      <!--HEADER-->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownMenuLink"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Departamentos
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="../Calzado/index2.html">Ir a Calzado</a>
+                  <a class="dropdown-item" href="../Musica/index.html">Ir a Música</a>
+                  <a class="dropdown-item" href="../Videojuegos/index.html">Ir a Videojuegos</a>
+                  <a class="dropdown-item" href="../Informatica/index.html">Ir a Informática</a>
+                  <a class="dropdown-item" href="./index.html">Ir a Libros</a>
+              </div>
+            </li>
+            <form class="form-inline my-2 my-lg-0 col-4 col-md-12">
+              <input
+                class="form-control mr-sm-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+            </form>
+  
+            <div class="iconosDerecha">
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <img class="iconos" src="./img/userIcono.png" alt="" />
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <img class="iconos" src="./img/carrito.png" alt="" />
+                </a>
+              </li>
+            </div>
+          </ul>
+        </div>
+        <a class="" href="../Portada/portada.html">
+          <img class="logo" src="./img/logoMorado.png" alt="" />
+        </a>
+      </nav>
+    </header>
+  <!--FIN HEADER-->
+  
+    <div class="container-fluid">
+    
+      <!--Cuerpo-->
+
+      <div id="articulos">
+        <div class="row">
+          <div class="col-2">
+            <div id="producto1">
+              <img
+                class="img-fluid w-70 pb-2"
+                src="img/comofuergohielo.jpg"
+                id="flibros"
+                alt=""
+              /><!-- Imagen del producto -->
+              <div class="col-md-12 col-12">
+                <div class="small-img-group">
+                  <div class="small-img-col">
+                    <img
+                      src="img/contraportada_fuegohielo.jpg"
+                      width="100%"
+                      class="small-img"
+                      alt=""
+                    />
+                  </div>
+                  <div class="small-img-col">
+                    <img
+                      src="img/comofuergohielo.jpg"
+                      width="100%"
+                      class="small-img"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-10">
+            <div class="row">
+              <div class="d-none d-md-block d-sm-none col-8">
+                <div id="producto2">
+                  <div>
+                    <p id="titulo">COMO FUEGO EN EL HIELO</p>
+                    <p id="info">LUZ GABAS</p>
+                    <p id="info">Narrativa española.Literatura</p>
+                    </p>
+                  </div>
+
+                  <div class="parrafo">
+                    <p id="resumen">Resumen</p>
+                    <p id="texto">
+                        Emocionante, cautivadora…Una novela de la aclamada autora de Palmeras en la nieve: Luz Gabás
+                        El fatídico día en el que Attua tuvo que ocupar el lugar de su padre supo que su prometedor 
+                        futuro se había truncado. Ahora debía regentar las termas que habían sido el sustento de su 
+                        familia, en una tierra fronteriza a la que él nunca hubiera elegido regresar. Junto al suyo, 
+                        también se frustró el deseo de Cristela, 
+                        quien anhelaba una vida a su lado y, además, alejarse de su insoportable rutina en un entorno 
+                        hostil. Un nuevo revés del destino pondrá a prueba el irrefrenable amor entre ellos; y así, 
+                        entre malentendidos y obligaciones, decisiones y obsesiones, traiciones y lealtades, Luz Gabás 
+                        teje una bella historia de amor, honor y superación.
+                        <a href="#" onclick="vermas('mas');" id="mas"
+                        >... Ver más</a
+                      ><!-- Enlace usado para ampliar texto -->
+                    </p>
+                    <!-- Texto que se verá despues de pulsar el enlace: "leer mas" y se esconderá despues de pulsar el enlace: "leer menos" -->
+                    <p id="desplegar" style="display: none">
+                        Los convulsos años de mediados del siglo xix, entre guerras carlistas y revoluciones; la 
+                        construcción de un sueño en las indomables montañas que separan Francia y España; y una 
+                        historia de amor que traspasa todas las barreras. Una novela escrita con el apasionante pulso 
+                        narrativo de la autora dePalmeras en la nieve.
+                        <a href="#" onclick="vermas('menos');" id="menos"
+                        >... Ver menos</a
+                      >
+                      <!-- Enlace usado para esconder texto -->
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="d-none d-md-block d-sm-none col-4">
+                <div class="col-12">
+                  
+                    <div>
+                      <p id="precio"><span>19,95€</span> 21,00€</p>
+                      <input type="number" value="1" min="0" max="10" class="cantidad">
+                      <a href="#"><button class="buy-btn">Añadir al carrito</button></a>
+                      <img
+                        src="img/ofertas.jpg"
+                        alt="ofertas"
+                        class="fotOfertas"
+                      />
+                    </div>
+
+                    <div>
+                      <!-- Ficha técnica, donde se incluye información expecífica como el número de páginas, la editorial, el idioma,
+                            ISBN, Año de edición, plaza de edición, fecha de lanzamiento y tamaño (ancho y alto). -->
+                      <p id="ficha">Ficha tecnica</p>
+                      <table id="texto">
+                        <tr>
+                          <td>Número de páginas</td>
+                          <td>576</td>
+                        </tr>
+                        <tr>
+                          <td>Editorial</td>
+                          <td>PLANETA</td>
+                        </tr>
+                        <tr>
+                          <td>Idioma</td>
+                          <td>CASTELLANO</td>
+                        </tr>
+                        <tr>
+                          <td>ISBN:</td>
+                          <td>9788408161561</td>
+                        </tr>
+                        <tr>
+                          <td>Año de edición:</td>
+                          <td>2017</td>
+                        </tr>
+                        <tr>
+                          <td>Plaza de edición</td>
+                          <td>BARCELONA</td>
+                        </tr>
+                        <tr>
+                          <td>Fecha de lanzamiento</td>
+                          <td>31/01/2017</td>
+                        </tr>
+                        <tr>
+                          <td>Alto</td>
+                          <td>23 cm</td>
+                        </tr>
+                        <tr>
+                          <td>Ancho:</td>
+                          <td>15 cm</td>
+                        </tr>
+                      </table>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="d-none d-sm-none d-md-block col-12" id="autor">
+            <p id="info">ALMUDENA GRANDES</p>
+            <table>
+              <tr>
+                <td>
+                  <img
+                    src="img/luzgabas.jpg"
+                    alt=""
+                    id="fotoautor"
+                  /><!--Foto del autor-->
+                </td>
+                <td>
+                  <p id="texto">
+                    Luz Gabás Ariño nació en 1968 en Monzón (Huesca). Se licenció en Filología Inglesa y obtuvo 
+                    la plaza de profesora titular de escuela universitaria. En 2007 escribió su primera novela, 
+                    Palmeras en la nieve. Publicada en febrero de 2012, se convirtió en el debut español de más 
+                    éxito de ese año y fue traducida a distintos idiomas. La adaptación de la novela al cine supuso 
+                    un rotundo éxito y la película consiguió dos premios Goya. En 2014 publicó Regreso a tu piel y, 
+                    en 2017, Como fuego en el hielo. Con ambas novelas, editadas por Planeta, Luz Gabás se consolidó 
+                    como una de las grandes autoras de nuestros días, por lo que ha recibido el reconocimiento de 
+                    lectores y asociaciones culturales y de libreros de toda la geografía española. Su obra está siendo 
+                    publicada en varios países. Actualmente reside en Benasque, en las montañas del Pirineo aragonés, 
+                    donde encuentra la inspiración para su trabajo. El latido de la tierra (Planeta, 2019) es su última 
+                    novela publicada. Ganadora del Premio Planeta de Novela 2022 con su novela Lejos de Luisiana.
+                  </p>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="d-none d-sm-none d-md-block col-12" id="sinopsis">
+            <p id="info">Sinopsis</p>
+            <p id="texto">
+                Emocionante, cautivadora…Una novela de la aclamada autora de Palmeras en la nieve: Luz Gabás
+                El fatídico día en el que Attua tuvo que ocupar el lugar de su padre supo que su prometedor 
+                futuro se había truncado. Ahora debía regentar las termas que habían sido el sustento de su 
+                familia, en una tierra fronteriza a la que él nunca hubiera elegido regresar. Junto al suyo, 
+                también se frustró el deseo de Cristela, 
+                quien anhelaba una vida a su lado y, además, alejarse de su insoportable rutina en un entorno 
+                hostil. Un nuevo revés del destino pondrá a prueba el irrefrenable amor entre ellos; y así, 
+                entre malentendidos y obligaciones, decisiones y obsesiones, traiciones y lealtades, Luz Gabás 
+                teje una bella historia de amor, honor y superación.
+                Los convulsos años de mediados del siglo xix, entre guerras carlistas y revoluciones; la 
+                construcción de un sueño en las indomables montañas que separan Francia y España; y una 
+                historia de amor que traspasa todas las barreras. Una novela escrita con el apasionante pulso 
+                narrativo de la autora dePalmeras en la nieve.
+            </p>
+          </div>
+        </div>
+      </div>
+
+        <!-- footer -->
+        <footer>
+          <!-- aqui he puesto tres contenedores de 4 cada una, aunque se puede modificar para poner 3-6-3 -->
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-4"></div>
+              <div class="col-4">
+                <!-- aqui iria no se si el logo, marca registrada el año o la idea que tengais -->
+                <p class="plibros">© 2022, El Corte Irlandés S.A. All rights reserved.</p>
+              </div>
+              <div class="col-4"></div>
+            </div>
+          </div>
+        </footer>
+        <!-- final del footer -->
+    </div> 
+    
+  </body>
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"
+  ></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+
+  <!-- js bootstap -->
+  <script src="./bootstrap/js/plantilla.js"></script>
+  <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="./bootstrap/js/bootstrap.bundle.min.js.map"></script>
+  <script src="./bootstrap/js/bootstrap.min.js"></script>
+  <script src="./bootstrap/js/bootstrap.min.js.map"></script>
+  <script src="./bootstrap/js/bootstrap.bundle.js"></script>
+  <script src="./bootstrap/js/bootstrap.bundle.js.map"></script>
+  <script src="./bootstrap/js/bootstrap.js"></script>
+  <script src="./bootstrap/js/bootstrap.js.map"></script>
+</html>

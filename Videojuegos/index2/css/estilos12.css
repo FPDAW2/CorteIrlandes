@@ -1,0 +1,86 @@
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.imagencarrusel{
+    width: 700px;
+    margin-left: 31%;
+    margin-top: 0%;
+}
+#myCarousel{
+    background-color: #b8b8ffad;
+    margin-top: 10%;
+    width: 98%;
+    margin-left: 2%;
+    margin-right: 36%;
+}
+#contenedorprinci{
+    margin-left: 13%;
+    margin-bottom: 3%;
+    margin-top: 6%;
+}
+.mw{
+    width: 85px;
+}
+
+.info{
+    font-size: 20px;
+}
+
+.video{
+    margin-left: 350px;
+    margin-top: 65px;
+}
+
+html{
+    background-color: #ffeedd9a;
+}
+body{
+    background-color:#ffeedd81;
+    width: 99%;
+    margin:0%;
+    margin-right: 0%;
+}
+/*Estilo del boton con su hover*/
+.buy-btn{
+    width: 130px;
+    height: 80px;
+    font-size: 25px;
+    border-radius: 15px;
+}
+.buy-btn:hover{
+    background: #b8b8ff;
+    color: #fff !important;
+}
+/*FIN DEL Estilo del boton con su hover*/
+
+/*Estilo de la imagen de la caja metalica*/
+#peques{
+    width: 300px;
+    height: 300px;
+    cursor: zoom-in;
+}
+iframe{
+    margin-left: 450px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+#peques {
+    transition: transform .2s; 
+}
+#peques:hover {
+    transform: scale(1.1); 
+}
+/*FIN DE Estilo de la imagen de la caja metalica*/
+
+/*Estilo de las letras y boton.*/
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    font-weight: bold;
+}
+h3:hover{
+    color: #b8b8ff;
+}
+/*FIN DE Estilo de las letras y boton.*/

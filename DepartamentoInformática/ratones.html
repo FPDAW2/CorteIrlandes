@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- css bootstrap -->
+  <link rel="stylesheet" href="./css/bootstrap.min.css" />
+  <link rel="stylesheet" href="./css/bootstrap-grid.min.css" />
+  <link rel="stylesheet" href="./css/bootstrap-grid.min.css.map" />
+  <link rel="stylesheet" href="./css/bootstrap-reboot.min.css" />
+  <link rel="stylesheet" href="./css/bootstrap.min.css.map" />
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="./css/estiloPortada2.css" />
+  <link rel="stylesheet" href="./css/articulos.css">
+
+  <!-- js bootstap -->
+  <script src="./js/bootstrap.bundle.min.js" defer></script>
+  <script src="./js/bootstrap.bundle.min.js.map" defer></script>
+  <script src="./js/bootstrap.min.js" defer></script>
+  <script src="./js/bootstrap.min.js.map" defer></script>
+
+  <title>Elcorte irlandes</title>
+</head>
+
+<body>
+  <!-- principio del header -->
+  <header class="fixed-top">
+    <div class="container-fluid">
+      <div class="row barra">
+        <!-- La cabecera esta dividida en 6 partes: -->
+        <div class="col-1">
+          <!-- hamburguesa desplegable -->
+          <div class="dropdown">
+            <button class="dropbtn">
+              <img class="img-fluid" src="./imagenes/menuIcono.png" alt="Icono hamburguesa" />
+            </button>
+            <div class="dropdown-content">
+              <a href="#">Ir calzados</a>
+              <a href="#">Ir música</a>
+              <a href="#">Ir videojuegos</a>
+              <a href="#">Ir informática </a>
+              <a href="#">Ir libros</a>
+            </div>
+          </div>
+        </div>
+        <!--BARRA DE BUSQUEDA ARREGLAR CUANDO SEA PEQUEÑA-->
+        <div class="col-3">
+          <form class="form-inline">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
+            <button class="btn my-2 my-sm-0" type="submit"><img  class="lupa" src="./imagenes/lupa.png" alt=""></button>
+          </form>
+        </div>
+        <div class="col-4">
+          <!-- LOGO-->
+          <a class="navbar-brand" href="#">
+            <img class="logo" src="./imagenes/logoMorado.png" alt="Logo" />
+          </a>
+        </div>
+        <!-- Cuenta y Carrito que no llevan a nada. -->
+        <div class="col-1"></div>
+        <div class="col-1"></div>
+        <div class="col-1 icono">
+          <a href="#"><img  class="iconos"  src="./imagenes/userIcono.png" alt="Icono usuario"></a> 
+        </div>
+      
+        <div class="col-1">
+          <a href="#"> <img  class="iconos" src="./imagenes/carrito.png" alt="Icono carrito"></a>
+        </div>
+      </div>
+
+
+    </div>
+  </header>
+  <!-- final del header -->
+  <div class="container-fluid articulos">
+    <!-- Nuestros Productos -->
+    <div class="row">
+      <div class="col-4"></div>
+      <div class="col-4 nuestros"><h2>Nuestros Productos</h2></div>
+      <div class="col-4"></div>
+    </div>
+    <!-- Apartados -->
+    <div class="row">
+      <div class="col-3"></div>
+      <div class="col-6 apartados">
+          <ul>
+            <li><a href="./graficas.html">Tarjetas  Gráficas</a></li>
+            <li><a href="./monitores.html">Monitores</a></li>
+            <li><a href="./ratones.html">Ratones</a></li>
+            <li><a href="./teclados.html">Teclados</a></li>
+          </ul>
+      </div>
+      <div class="col-3"></div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <!--Primera fila de articulos-->
+        <div class="row">
+          <div class="col-3"></div>
+          <div class="col-6">
+            <div class="row">
+              <div class="col-3">
+                <!--Articulo 1-->
+                  <div class="card" >
+                    <p>MSI Clutch GM50 Ratón Gaming 7200 DPI </p>
+                  <a href="./productos/ratones/articulo1.html">
+                  <img src="./imagenes/ratones/articulo1/6.webp" class="card-img-top" alt="">
+                  <div class="card-body">
+                    <h5 class="card-title">42,98€ <span>79,90€</span></h5>
+                    <a href="./productos/ratones/articulo1.html"></a>
+                  </div>
+                  </a>
+                </div>
+              </div>
+              <div class="col-3">
+                <!--Articulo 2-->
+                <div class="card" >
+                  <p>Logitech B100 Ratón Negro 1600 DPI BASIC</p>
+                  <a href="./productos/ratones/articulo2.html">
+                  <img src="./imagenes/ratones/articulo2/123-logitech-b100-raton-negro-comprar.webp" class="card-img-top" alt="">
+                  <div class="card-body">
+                    <h5 class="card-title">7,39€ <span>13,99€</span></h5>
+                    <a href="./productos/ratones/articulo2.html" ></a>
+                  </div>
+                  </a>
+                </div>
+              </div>
+              <div class="col-3">
+                <!--Articulo 3-->
+                <div class="card" >
+                  <p>Logitech G502 Lightspeed 25600DPI</p>
+                  <a href="">
+                  <img src="./imagenes/1677-logitech-g502-lightspeed-raton-gaming-inalambrico-16000dpi-comprar.webp" class="card-img-top" alt="">
+                  <div class="card-body">
+                    <h5 class="card-title">92,99€ <span>159,99€</span></h5>
+                    <a href="#"></a>
+                  </div>
+                  </a>
+                </div>
+              </div>
+              <div class="col-3">
+                <!--Articulo 4-->
+                <div class="card" >
+                  <p>HyperX Pulsefire Dart Inalámbrico  16000 DPI</p>
+                  <a href="">
+                    
+                  <img src="./imagenes/1610-hyperx-pulsefire-dart-raton-gaming-inalambrico-16000-dpi.webp" class="card-img-top" alt="">
+                  <div class="card-body">
+                    <h5 class="card-title">84,99€ <span>99,99€</span></h5>
+                    <a href="#"></a>
+                  </div>
+                  </a>
+                </div>
+              </div>
+            </div>            
+          </div>
+          <div class="col-3"></div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+
+  <!-- principio del footer -->
+  <footer>
+    <!-- aqui he puesto tres contenedores de 4 cada una, aunque se puede modificar para poner 3-6-3 -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-4"></div>
+        <div class="col-4">
+          <!-- aqui iria no se si el logo, marca registrada el año o la idea que tengais -->
+          <p>© 2022, El Corte Irlandés S.A. All rights reserved.</p>
+        </div>
+        <div class="col-4"></div>
+      </div>
+    </div>
+  </footer>
+  <!-- final del footer -->
+</body>
+<!-- final del body -->
+
+</html>

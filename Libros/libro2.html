@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+
+    <link rel="stylesheet" href="./bootstrap/css/libros.css" />
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap-grid.css" />
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap-grid.min.css" />
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap-grid.min.css.map" />
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap-reboot.min.css" />
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css.map" />
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap-grid.css.map" />
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap-reboot.css" />
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap-reboot.css.map" />
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap-reboot.min.css.map"/>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.css.map" />
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css" />
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+    crossorigin="anonymous"
+  />
+ 
+  <script
+    src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"
+    defer
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"
+    defer
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"
+    defer
+  ></script>
+    <title>LIBRO 2</title>
+  </head>
+  <body>
+
+    <!--------------------------- DEPARTAMENTO DE LIBRERÍA. LIBRO 2 ------------------------------------
+
+      Fecha de creación: NO LO SE 
+      Fecha de última modificación: 03/11/2022
+      Autores: juanluis.penalopez@iesjuandeherrera.net y rocio.fernandezzamora@iesjuandeherrera.net
+
+      Página que engloba información más concreta de el primer libro.
+
+      La página se divide en 4 bloques:
+
+      - El primero (col-2), donde se situa la imagen.
+      - El segundo (col-10, con otros dos bloques anidados, (col-8 y col-4)), donde se encuentran, en 
+        el col-8 título, resumen, autor y género. Y en el col-4, precio, input de cantidad y ficha 
+        ténica, cada uno son col-12.
+      - El tercero (col-12), con información del autor + foto.
+      - El cuarto (col-12), con la sipnosis.
+      
+    ---------------------------------------------------------------------------------------------------->
+
+    <!--Cabecera-->
+
+    <header>
+      <!--HEADER-->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownMenuLink"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Departamentos
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="../Calzado/index2.html">Ir a Calzado</a>
+                <a class="dropdown-item" href="../Musica/index.html">Ir a Música</a>
+                <a class="dropdown-item" href="../Videojuegos/index.html">Ir a Videojuegos</a>
+                <a class="dropdown-item" href="../Informatica/index.html">Ir a Informática</a>
+                <a class="dropdown-item" href="./index.html">Ir a Libros</a>
+              </div>
+            </li>
+            <form class="form-inline my-2 my-lg-0 col-4 col-md-12">
+              <input
+                class="form-control mr-sm-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+            </form>
+  
+            <div class="iconosDerecha">
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <img class="iconos" src="./img/userIcono.png" alt="" />
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <img class="iconos" src="./img/carrito.png" alt="" />
+                </a>
+              </li>
+            </div>
+          </ul>
+        </div>
+        <a class="" href="../Portada/portada.html">
+          <img class="logo" src="./img/logoMorado.png" alt="" />
+        </a>
+      </nav>
+    </header>
+  <!--FIN HEADER-->
+  
+    <div class="container-fluid">
+
+      <!--Cuerpo-->
+
+      <div id="articulos"> <!-- Div que contiene la información del producto -->
+        <div class="row">
+          
+          <!-- Div que contiene las imágenes del libro, es col-2 pero queda mejor siendo col-3 -->
+          <div class="col-2">
+            <div id="producto1">
+               <!--Imagen principal-->
+              <img
+                class="img-fluid w-70 pb-2"
+                src="img/niño pijama de rayas.jpg"
+                id="flibros"
+                alt=""
+              /><!-- Imagen del producto -->
+              <div class="col-md-12 col-12">
+                <div class="small-img-group">
+                  <div class="small-img-col">
+                    <!--Primera imagen pequeña, en este caso la contraportada-->
+                    <img
+                      src="img/contraportada_niñopijamarayas.jpg"
+                      width="100%"
+                      class="small-img"
+                      alt=""
+                    />
+                  <!--Segunda imagen del libro, en este caso otra vez la portada-->
+                  </div>
+                  <div class="small-img-col">
+                    <img
+                      src="img/niño pijama de rayas.jpg"
+                      width="100%"
+                      class="small-img"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+              <!-------------- Juanlu, lo del small-img y small-img-col no te lo explico porque no lo entiendo, se lo copié a Gonzalo. So sorry -------------->
+            </div>
+          </div>
+
+          <!--Fin de div que contiene las imágenes-->
+
+          <!-- Div que contiene información como el título, autor y género, resumen, ficha ténica y precio con botón feo igual que todos -->
+          <!-- Es col-10 porque sí, dentro de este div col-10, van anidados otros dos div, uno col-8 (que contiene el título, autor, género y resumen) y otro
+          col-4 (que contiene precio, input de cantidad y boton feo) -->
+
+          <div class="col-10">
+            <div class="row">
+              <div class="d-none d-md-block d-sm-none col-8">
+                
+                <!-- Div que incluye titulo, autor, género y resumen-->
+                <div id="producto2">
+                  <div>
+                    <p id="titulo">EL NIÑO CON EL PIJAMA DE RAYAS</p><!-- Titulo -->
+                    <p id="info">JOHN BOYNE</p><!-- Autor -->
+                    <p id="info"> Literatura, Narrativa extranjera del XIX XXI <xx/p><!-- Genero -->
+                    </p>
+                  </div>
+
+                  <div class="parrafo"><!-- Div que contiene el resumen-->
+                    <p id="resumen">Resumen</p><!-- Resumen -->
+                    <p id="texto">
+                      Estimado lector, estimada lectora: Aunque el uso habitual
+                      de un texto como éste es describir las características de
+                      la obra, por una vez nos tomaremos la libertad de hacer
+                      una excepción a la norma establecida. No sólo porque el
+                      libro que tienes en tus manos es muy difícil de definir,
+                      sino porque estamos convencidos de que explicar su
+                      contenido estropearía la experiencia de la lectura.
+                      Creemos que es importante empezar esta novela sin saber de
+                      qué trata.
+                      <a href="#" onclick="vermas('mas');" id="mas"
+                        >... Ver más</a
+                      ><!-- Enlace usado para ampliar texto -->
+                    </p>
+                    <!-- Texto que se verá despues de pulsar el enlace: "leer mas" y se esconderá despues de pulsar el enlace: "leer menos" -->
+                    <p id="desplegar" style="display: none">
+                      No obstante, si decides embarcarte en la aventura, debes
+                      saber que acompañarás a Bruno, un niño de nueve años,
+                      cuando se muda con su familia a una casa junto a una
+                      cerca. <br />
+                      Cercas como ésa existen en muchos sitios del mundo, sólo
+                      deseamos que no te encuentres nunca con una. Por último,
+                      cabe aclarar que este libro no es sólo para adultos;
+                      también lo pueden leer, y sería recomendable que lo
+                      hicieran, niños a partir de los trece años de edad.
+                      <a href="#" onclick="vermas('menos');" id="menos"
+                        >... Ver menos</a
+                      >
+                      <!-- Enlace usado para esconder texto -->
+                    </p>
+                  </div><!-- Fin de div que contiene el resumen-->
+                </div><!-- Fin de div que incluye titulo, autor, género y resumen-->
+              </div>
+              <div class="d-none d-md-block d-sm-none col-4">
+                <!-- Div que contiene el precio, input de cantidad y boton feo -->
+                <div class="col-12">
+                  
+                    <div>
+                      <p id="precio"><span>9,95€</span> 9,45€</p>><!-- Precio inicial y precio rebajado final -->
+                      <input type="number" value="1" min="0" max="10" class="cantidad"><!-- Input de cantidad-->
+                      <a href="#"><button class="buy-btn">Añadir al carrito</button></a><!-- Boton de añadir a la cesta, no tiene ninguna función todavía -->
+                      <!--Imagen de ofertas-->
+                      <img
+                        src="img/ofertas.jpg"
+                        alt="ofertas"
+                        class="fotOfertas"
+                      />
+                    </div>
+
+                    <div>
+                      <!-- Ficha técnica, donde se incluye información expecífica como el número de páginas, la editorial, el idioma,
+                            ISBN, Año de edición, plaza de edición, fecha de lanzamiento y tamaño (ancho y alto). -->
+                      <p id="ficha">Ficha tecnica</p>
+                      <table id="texto">
+                        <tr>
+                          <td>Número de páginas</td>
+                          <td>224</td>
+                        </tr>
+                        <tr>
+                          <td>Editorial</td>
+                          <td>SALAMANDRA</td>
+                        </tr>
+                        <tr>
+                          <td>Idioma</td>
+                          <td>CASTELLANO</td>
+                        </tr>
+                        <tr>
+                          <td>ISBN:</td>
+                          <td>9788498382549</td>
+                        </tr>
+                        <tr>
+                          <td>Año de edición:</td>
+                          <td>2009</td>
+                        </tr>
+                        <tr>
+                          <td>Plaza de edición</td>
+                          <td>ES</td>
+                        </tr>
+                        <tr>
+                          <td>Fecha de lanzamiento</td>
+                          <td>09/07/2009</td>
+                        </tr>
+                        <tr>
+                          <td>Alto</td>
+                          <td>20.4 cm</td>
+                        </tr>
+                        <tr>
+                          <td>Ancho:</td>
+                          <td>13 cm</td>
+                        </tr>
+                      </table>
+                    </div><!-- Fin de ficha técnica -->
+                </div><!-- Fin de div que contiene el precio, input de cantidad y boton feo -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="d-none d-sm-none d-md-block col-12" id="autor"><!-- Div col-12 que contiene información de autor + foto-->
+            <p id="info">John Boyne</p><!--Nombre del autor-->
+            <table>
+              <tr>
+                <td>
+                  <img
+                    src="img/john boyne.jpg"
+                    alt=""
+                    id="fotoautor"
+                  /><!--Foto del autor-->
+                </td>
+                <td>
+                  <p id="texto"><!--Información del autor-->
+                    John Boyne nació en 1971 en Dublín, Irlanda. Se formó en el
+                    Trinity College y en la Universidad de East Anglia, en
+                    Norwich. Entre las novelas que ha publicado destaca El niño
+                    con el pijama de rayas, que se ha traducido a más de
+                    cuarenta idiomas y de la que se han vendido más de cinco
+                    millones de ejemplares. Ganadora de dos Irish Book Awards y
+                    finalista del British Book Award, fue llevada al cine en
+                    2008. En España fue galardonada con el Premio de los
+                    Lectores 2007 de la revista Qué Leer y permaneció más de un
+                    año en las listas de libros más vendidos. John Boyne es
+                    asimismo el aclamado autor de Motín en la Bounty, La casa
+                    del propósito especial, La apuesta, El ladrón de tiempo, En
+                    el corazón del bosque, El pacifista y El secreto de Gaudlin
+                    Hall.
+                  </p>
+                </td>
+              </tr>
+            </table>
+          </div><!-- Fin de div col-12 que contiene información de autor + foto-->
+        </div>
+
+        <div class="row">
+          <div class="d-none d-sm-none d-md-block col-12" id="sinopsis"><!-- Div col-12 que contiene sipnosis-->
+            <p id="info">Sinopsis</p>
+            <p id="texto">
+              El libro que conmovió a millones de lectores. Estimado lector,
+              estimada lectora: Aunque el uso habitual de un texto como éste es
+              describir las características de la obra, por una vez nos
+              tomaremos la libertad de hacer una excepción a la norma
+              establecida. No sólo porque el libro que tienes en tus manos es
+              muy difícil de definir, sino porque estamos convencidos de que
+              explicar su contenido estropearía la experiencia de la lectura.
+              Creemos que es importante empezar esta novela sin saber de qué
+              trata. No obstante, si decides embarcarte en la aventura, debes
+              saber que acompañarás a Bruno, un niño de nueve años, cuando se
+              muda con su familia a una casa junto a una cerca. Cercas como ésa
+              existen en muchos sitios del mundo, sólo deseamos que no te
+              encuentres nunca con una. Por último, cabe aclarar que este libro
+              no es sólo para adultos; también lo pueden leer, y sería
+              recomendable que lo hicieran, niños a partir de los trece años de
+              edad.
+            </p>
+          </div><!-- Fin de div col-12 que contiene sipnosis-->
+        </div>
+      </div>
+
+        <!-- footer -->
+        <footer>
+          <!-- aqui he puesto tres contenedores de 4 cada una, aunque se puede modificar para poner 3-6-3 -->
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-4"></div>
+              <div class="col-4">
+                <!-- aqui iria no se si el logo, marca registrada el año o la idea que tengais -->
+                <p class="plibros">© 2022, El Corte Irlandés S.A. All rights reserved.</p>
+              </div>
+              <div class="col-4"></div>
+            </div>
+          </div>
+        </footer>
+        <!-- final del footer -->
+    </div>
+    
+  </body>
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"
+  ></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+
+  <!-- js bootstap -->
+  <script src="./bootstrap/js/plantilla.js"></script>
+  <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="./bootstrap/js/bootstrap.bundle.min.js.map"></script>
+  <script src="./bootstrap/js/bootstrap.min.js"></script>
+  <script src="./bootstrap/js/bootstrap.min.js.map"></script>
+  <script src="./bootstrap/js/bootstrap.bundle.js"></script>
+  <script src="./bootstrap/js/bootstrap.bundle.js.map"></script>
+  <script src="./bootstrap/js/bootstrap.js"></script>
+  <script src="./bootstrap/js/bootstrap.js.map"></script>
+</html>

@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<!--
+/*
+ * blueimp Gallery Demo
+ * https://github.com/blueimp/Gallery
+ *
+ * Copyright 2013, Sebastian Tschan
+ * https://blueimp.net
+ *
+ * Licensed under the MIT license:
+ * https://opensource.org/licenses/MIT
+ */
+-->
+<html lang="en">
+  <head>
+    <!--[if IE]>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <![endif]-->
+    <meta charset="utf-8" />
+    <title>Videojuegos</title>
+    <meta
+      name="description"
+      content=""
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- Compiled and minified Bootstrap CSS -->
+        <link rel="stylesheet" href="./css/bootstrap.min.css" />
+        <link rel="stylesheet" href="./css/bootstrap-grid.min.css" />
+        <link rel="stylesheet" href="./css/bootstrap-grid.min.css.map" />
+        <link rel="stylesheet" href="./css/bootstrap-reboot.min.css" />
+        <link rel="stylesheet" href="./css/bootstrap.min.css.map" />
+        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="./css_jm/estilos.css">
+        <link rel="stylesheet" href="./css/bootstrap.min.css" />
+        <link rel="stylesheet" href="./css/bootstrap-grid.min.css" />
+        <link rel="stylesheet" href="./css/bootstrap-grid.min.css.map" />
+        <link rel="stylesheet" href="./css/bootstrap-reboot.min.css" />
+        <link rel="stylesheet" href="./css/bootstrap.min.css.map" />
+        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="./css/estiloPortada2.css" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./css/estilos8.css">
+      
+        <!-- js bootstap -->
+        <script src="./js/bootstrap.bundle.min.js" defer></script>
+        <script src="./js/bootstrap.bundle.min.js.map" defer></script>
+        <script src="./js/bootstrap.min.js" defer></script>
+        <script src="./js/bootstrap.min.js.map" defer></script>
+  </head>
+  <body>
+<!-- principio del header -->
+<header class="fixed-top">
+  <div class="container-fluid">
+    <div class="row barra">
+      <!-- La cabecera esta dividida en 6 partes: -->
+      <div class="col-1">
+        <!-- hamburguesa desplegable -->
+        <div class="dropdown">
+          <button class="dropbtn">
+            <img class="img-fluid" src="./imagenes/menuIcono.png" alt="Icono hamburguesa" />
+          </button>
+          <div class="dropdown-content">
+            <a href="#">Ir calzados</a>
+            <a href="../DepMusica/index.html">Ir música</a>
+            <a href="../index.html">Ir videojuegos</a>
+            <a href="../DepartamentoInformática/DepartamentoInformática/portada.html">Ir informática </a>
+            <a href="../githublibros/index.html">Ir libros</a>
+          </div>
+        </div>
+      </div>
+      <!--BARRA DE BUSQUEDA ARREGLAR CUANDO SEA PEQUEÑA-->
+      <div class="col-3">
+        <form class="form-inline">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
+          <button class="btn my-2 my-sm-0" type="submit"><img class="lupa" src="./imagenes/lupa.png" alt=""></button>
+        </form>
+      </div>
+      <div class="col-4">
+        <!-- LOGO-->
+        <a class="navbar-brand" href="../portada/portada.html">
+          <img class="logo" src="./imagenes/logoMorado.png" alt="Logo" />
+        </a>
+      </div>
+      <!-- Cuenta y Carrito que no llevan a nada. -->
+      <div class="col-1"></div>
+      <div class="col-1"></div>
+      <div class="col-1 icono">
+        <a href="#"><img class="iconos" src="./imagenes/userIcono.png" alt="Icono usuario"></a>
+      </div>
+
+      <div class="col-1">
+        <a href="#"> <img class="iconos" src="./imagenes/carrito.png" alt="Icono carrito"></a>
+      </div>
+    </div>
+
+
+  </div>
+</header>
+    <!-- final del header -->
+
+  <!--Carrusel con las fotos-->
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class=""></li>
+        <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="2" class=""></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+        <div class="item">
+            <img src="../img/gt71.jpg" alt="cod" class="imagencarrusel" id="fotocarru">
+        </div>
+        <div class="item active">
+            <img src="../img/gt72.jpg" alt="" class="imagencarrusel" id="fotocarru">
+        </div>
+        <div class="item">
+            <img src="../img/gt73.webp" alt="" class="imagencarrusel" id="fotocarru">
+        </div>
+    </div>
+
+    <!-- Controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+
+<!--Fin de Carrusel-->
+
+<!-- Code injected by live-server -->
+
+
+    <section class="sproduct" id="contenedorprinci">
+      <div class="row">
+          <div class="col-lg-9 col-md-12 col-12">
+            <p id="vinc">Página oficial: <a href="https://www.gran-turismo.com/es/" target="_blank"><img src="../img/gt7logo.png" alt="MW" class="mw"></a></p>
+            <br><br>
+            <div class="col-md-6">
+              <img src="../img/PolyphonyDigital.png" alt="logo" id="peques">
+            </div>
+            <h3 class="py-4">Gran Turismo 7</h3>
+              <h2>69,99€</h2>
+              <select class="my-4">
+                  <option>Plataforma</option>
+                  <option>PlayStation4</option>
+                  <option>PlayStation5</option>
+              </select>
+              <br><br>
+              <a href="#"><button class="buy-btn">Añadir al carrito</button></a>
+          </div>
+          
+              <div class="row">
+            <div class="col-lg-8">
+              <br>
+              <h4 class="mt-5 mb-5">Simulador de conducción real solo en PlayStation </h4>
+              <p class="info">
+                Compra el simulador de conducción real que lo cambió todo, vuelve una saga clásica que ya es historia del mundo de los videojuegos. Gran Turismo 7 aprovecha todo lo aprendido en sus 22 años de experiencia para ofrecerte las mejores prestaciones de la historia de la franquicia.
+
+Hazte con él en El corte Irlandes
+
+Ya seas un corredor competitivo, un coleccionista, un perfeccionista, un diseñador, un fotógrafo o un entusiasta de los arcades, alimenta tu pasión por los coches con elementos inspirados en el pasado, el presente y el futuro de Gran Turismo.
+
+Desde los vehículos y circuitos más clásicos hasta la reincorporación del legendario modo Simulación GT, disfruta de las mejores funcionalidades de las anteriores entregas de la serie. Y, si te apasiona la velocidad, practica y compite en los Campeonatos FIA y en el modo Sport*.
+
+Pero recuerda que no todo es correr en Gran Turismo 7. Perfecciona y crea en el nuevo modo de diseño y personalización o mejora tus habilidades y estrategias de carrera en la escuela de conducción.
+
+Características:
+
+El simulador de conducción real
+Usa las nuevas herramientas para explorar las capacidades del simulador de conducción real y disfruta como nunca al volante.
+              </p>
+              </div>
+            </div>
+      </div>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/1tBUsXIkG1A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </section>
+
+
+  <!-- principio del footer -->
+  <footer>
+    <!-- aqui he puesto tres contenedores de 4 cada una, aunque se puede modificar para poner 3-6-3 -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-4"></div>
+        <div class="col-4">
+          <!-- aqui iria no se si el logo, marca registrada el año o la idea que tengais -->
+          <p>© 2022, El Corte Irlandés S.A. All rights reserved.</p>
+        </div>
+        <div class="col-4"></div>
+      </div>
+    </div>
+  </footer>
+  <!-- final del footer -->
+
+  </body>
+  <script>
+    // <![CDATA[  <-- For SVG support
+    if ('WebSocket' in window) {
+    (function () {
+      function refreshCSS() {
+        var sheets = [].slice.call(document.getElementsByTagName("link"));
+        var head = document.getElementsByTagName("head")[0];
+        for (var i = 0; i < sheets.length; ++i) {
+          var elem = sheets[i];
+          var parent = elem.parentElement || head;
+          parent.removeChild(elem);
+          var rel = elem.rel;
+          if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+            var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+            elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+          }
+          parent.appendChild(elem);
+        }
+      }
+      var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+      var address = protocol + window.location.host + window.location.pathname + '/ws';
+      var socket = new WebSocket(address);
+      socket.onmessage = function (msg) {
+        if (msg.data == 'reload') window.location.reload();
+        else if (msg.data == 'refreshcss') refreshCSS();
+      };
+      if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+        console.log('Live reload enabled.');
+        sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+      }
+    })();
+    }
+    else {
+    console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+    }
+    // ]]>
+    </script>
+    
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+    
+    
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script>
+
+</html>
+

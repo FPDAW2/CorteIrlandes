@@ -1,0 +1,90 @@
+body{
+    font-family: helvetica;
+}
+.articulos{
+    margin-top: 10vw;
+    padding-bottom: 10vw;
+}
+h2{
+    text-align: center;
+    font-family: 'Fuzzy Bubbles', cursive;
+    color: #8645ff;
+}
+body{
+    background-color: #ffeedd;
+}
+.card{
+    background-color: #b8b8ff;
+    text-align: center;
+    width: 10rem;
+}
+
+.card-body{
+    text-align: center;
+}
+span{
+    text-decoration:line-through;
+    color: red;
+    font-size: small;
+}
+.card p{
+    color: #8645ff;
+    font-weight: 600;
+    pointer-events: none;
+}
+.card:hover{
+    background-color: #b8b8ff;
+}
+.card{
+    border-radius: 4px;
+    background: #f8f7ff;
+    box-shadow: 0px 0px 8px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+    padding: 14px ;
+    cursor: pointer;
+    
+}
+
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 15px 15px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+.separador{
+    height: 50px;
+}
+.nuestros , .apartados{
+    padding-bottom: 50px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    font-size: 2em;
+    background-color: #8645ff;
+    font-family: 'Poor Story', cursive;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+.apartados ul li a{
+    color: #fff;
+	display: inline-block;
+	padding: 20px;
+	width: 100%;
+	text-align: center;
+	color: #000;
+	transition: .3s ease-out all;
+}
+.apartados ul li a:hover {
+    background: #1D2F3D;
+	color: #fff;
+	text-decoration: none;
+}
+
+
+
+
+

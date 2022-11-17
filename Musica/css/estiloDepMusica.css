@@ -1,0 +1,117 @@
+/* CONTENIDO ARTICULO */
+*{
+    font-family:Arial, Helvetica, sans-serif;
+}
+.sproduct{
+    padding: 5% 10% 5% 20%;
+}
+
+.small-img-group{
+    display: flex;
+    justify-content: space-between;
+}
+
+.small-img-col{
+    flex-basis: 32%;
+    cursor: pointer;
+}
+.small-img{
+    max-width: 100%;
+  height: auto;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.img-fluid{
+    border-radius: 5px;
+    max-width: 100%;
+  height: auto;
+  object-fit: cover;
+    
+}
+
+.sproduct input{
+    width: 50px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.sproduct input:focus {
+    outline: none;
+    
+}
+
+
+select.my-3{
+    width: 5cm;
+    height: 1cm;
+    border-radius: 5px;
+}
+
+.col-lg-6.col-md-12.col-12 input{
+    width: 3cm;
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #f8f7ff;
+}
+
+/*FOOTERYHEADER*/
+
+/*Cosas del logo del medio*/
+.logo {
+    position: absolute;
+      top: 80%;  
+      left: 50%;  
+      transform: translate(-50%, -50%);
+      width: 120px;
+      z-index: 1;
+  }
+  
+  /*iconos*/
+  .iconos {
+    width: 40px;
+    border-radius: 5px;
+  }
+  .navbar{
+    background-color: #8645ff;
+    color: rgb(255, 255, 255);
+  }
+  .nav-link,.nav-link:hover,.nav-link:visited{
+    color: rgb(255, 255, 255);
+  
+  }
+  
+  .iconosDerecha{
+    position: absolute;
+    right: 0;
+    display: flex;
+    margin-top: -5;
+    filter: invert(1);
+    margin-right: 5px;
+  }
+  
+  
+  footer {
+    position:static;
+    bottom: 0;
+    margin: 0;
+    width: 100%;
+    background-color: #8645ff;
+    color: rgb(255, 255, 255);
+    text-align: center;
+  }
+  .buy-btn{
+    width: 130px;
+    height: 80px;
+    font-size: 25px;
+    border-radius: 15px;
+}
+.buy-btn:hover{
+    background: #b8b8ff;
+    color: #fff !important;
+}
+  

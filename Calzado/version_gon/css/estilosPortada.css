@@ -1,0 +1,91 @@
+body, html {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  width: 100%;
+  background-color: #b8b8ff;
+}
+.row{
+  background-color: #b8b8ff;
+}
+/*SLIDER/CAROUSEL*/
+.carousel {
+  width: 100vw;
+  height: 80vh;
+  min-height: 100%;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background-color:  transparent;
+}
+
+.item img {
+  object-fit: cover;
+  height: 100px;
+  filter: hue-rotate(310deg);
+
+}
+
+/*IMAGENES DEPARTAMENTOS*/
+.imagen {
+  border-bottom: 10px solid transparent;
+  position: relative;
+}
+/*CARRUSEL GRANDE */
+.carousel{
+  box-sizing: border-box;
+height: 700px;
+margin-left: -32px;
+}
+/*Texto de dentro de las imágenes de los departamentos*/
+h3{
+  width: 50%;
+  height: 50%;
+  /* centrado vertical */
+  position: absolute;
+  left: 15%;
+  top: 40%;
+  color: #ffeedd !important;
+  text-shadow: 5px 10px 10px  #9381ff;
+  font-family: Georgia, Times, 'Times New Roman', serif !important;
+  font-weight: 700!important;
+  font-size: 70px !important;
+
+}
+/*Descripcion de dentro del carrusel*/
+.descripcion{
+  /* centrado vertical */
+  position: absolute;
+  left: 10%;
+  top: 20%;
+}
+.descripcion h2, .pDesc{
+  font-size: 60px !important;
+  font-weight: 800!important;
+  color: #9381ff !important;
+  text-shadow: 3px 3px 3px  #000000;
+}
+
+/*IMG de departamentos (columnas)*/
+.imgDepartamentos {
+  width: 600px;
+  height: 800px;
+  object-fit: cover;
+  border-radius: 20px;
+  /*Intento de uniformizar los colores de las imágenes de dept a morado para que conjunte con la paleta de colores*/
+  filter: hue-rotate(310deg);
+}
+
+.imgDepartamentos:hover {
+  width: 600px;
+  height: 800px;
+  object-fit: cover;
+  filter: blur(1px) brightness(40%) hue-rotate(none);
+  -webkit-filter: blur(1px) brightness(40%);
+}
+
+/*Margenes...*/
+.escalonamiento {
+  height: 100px;
+}
+

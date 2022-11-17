@@ -1,0 +1,143 @@
+/*TENER EN CUENTA QUE ALGUNOS DE ESTILOS PUEDEN LLAMARSE A CLASES QUE HAYAIS PUESTO*/
+
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+/*Cosas del logo del medio*/
+/*TODO:?????? arreglar esto (otra vez)*/
+.logo {
+  position: relative;
+  width: 175px;
+  top: 100px !important;
+}
+
+/*iconos*/
+.lupa {
+  width: 20px;
+}
+
+.iconos {
+  width: 40px;
+  border-radius: 5px;
+}
+
+.navbar-brand {
+  justify-content: center;
+  display: flex;
+  margin-top: -125px !important;
+}
+
+/*ajustes generales*/
+.barra,
+footer {
+  padding: 10px;
+  padding-top: 15px;
+  /*NOTA: voy a poner esto un pelín mas oscuro por ahora, decidme a que color lo cambio o cambio el logo */
+  background-color: #8645ff;
+
+}
+
+header {
+  padding-bottom: 0px;
+}
+
+/* Boton dropdown de la izquierda */
+.dropbtn {
+  background-color: #b8b8ff;
+  color: black;
+  padding: 5px;
+  font-size: 16px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+
+.dropbtn img {
+  width: 15px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f8f7ff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links dentro del dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* cambio de colores */
+.dropdown-content a:hover {
+  background-color: #ffeedd;
+}
+
+/* enseñar dropdown en hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* cambios de color del dropdown cuando esta en uso */
+.dropdown:hover .dropbtn {
+  background-color: #f8f7ff;
+}
+
+/*Estilos sobre el footer...*/
+footer,
+.fondoFooter {
+  text-align: center;
+  font-size: 20px;
+  background-color: #8645ff;
+}
+
+.tabla_cal{
+  margin: 7%;
+  padding: 3%;
+}
+.img_cal{
+  height: 90%;
+  width: 98%;
+}
+.td_cal{
+  
+  padding: 2%;
+}
+#titulo{
+  font-size: 100px;
+  margin-left: 40px;
+}
+.articulo_foto{
+  width: 100%;
+  height: 100%;
+  
+}
+.tabla_art{
+ 
+  margin-left: 10%;
+  padding: 100px;
+}
+.td_art{
+  
+  width: 850px;
+  
+}
+.img_peque{
+  width: 10%;
+  height: 10%;
+}
+h2{
+  font-size: 70px;
+}
