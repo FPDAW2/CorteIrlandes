@@ -180,4 +180,6 @@ footer {
   background-position: center;
   background-blend-mode:soft-light ;
 }
-
+body {
+  font-family: Helvetica;
+}
